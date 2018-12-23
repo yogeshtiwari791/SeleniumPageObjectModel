@@ -54,5 +54,8 @@ public class RediffLoginPage{
 		return new RediffHomePage(driver);
 	}
 	
+	public void same() {
+		
+	}
 
 }

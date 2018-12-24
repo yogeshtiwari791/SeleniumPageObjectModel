@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import pageobjects.MensWear;
 import pageobjects.RediffHomePage;
 
 public class TopNavigationMenus {
@@ -44,9 +45,9 @@ public class TopNavigationMenus {
 	@FindBy(xpath="//span[@class='shoponlinehd']")
 	WebElement heading;
 	
-	public TopNavigationMenus navigateToMensLifestyle() {
+	public MensWear navigateToMensLifestyle() {
 		mensLifestyle.click();
-		return this;
+		return new MensWear(driver);
 	}
 	
 	public TopNavigationMenus navigateToWomenLifestyle() {

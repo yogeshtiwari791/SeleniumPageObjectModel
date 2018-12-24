@@ -44,7 +44,7 @@ public class TopNavNavigateTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		TopNavigationMenus topNavigationMenus=new TopNavigationMenus(driver);
+		/*TopNavigationMenus topNavigationMenus=new TopNavigationMenus(driver);
 		topNavigationMenus.navigateToMensLifestyle().validatePageWithHeading(prop.getProperty("mensLifestyle")).
 							navigateToWomenLifestyle().validatePageWithHeading(prop.getProperty("womensLifestyle")).
 							navigateToMobile().validatePageWithHeading(prop.getProperty("mobiles")).
@@ -54,7 +54,7 @@ public class TopNavNavigateTest {
 							navigateToPersonalCare().validatePageWithHeading(prop.getProperty("personalCare")).
 							navigateToHealthAndFitness().validatePageWithHeading(prop.getProperty("healthAndFitness"));		
 		
-		driver.quit();
+		driver.quit();*/
 		
 	}	
 

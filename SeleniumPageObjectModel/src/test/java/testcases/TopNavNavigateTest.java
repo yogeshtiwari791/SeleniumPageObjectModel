@@ -23,7 +23,7 @@ public class TopNavNavigateTest {
 	public void topNavNavigationTest() {
 		
 		try {
-			fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\navigationHeadings.properties");
+			fis=new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/properties/navigationHeadings.properties");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -38,7 +38,7 @@ public class TopNavNavigateTest {
 			e.printStackTrace();
 		}
 		
-		System.setProperty("webdriver.chrome.driver", "E:\\TestingProject\\SeleniumPageObjectModel\\src\\test\\resources\\executables\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/executables/chromedriver");
 		driver=new ChromeDriver();
 		driver.get("http://shopping.rediff.com/");
 		driver.manage().window().maximize();

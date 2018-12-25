@@ -16,7 +16,7 @@ public class TestCase1 {
 	@Test
 	public void signInTest() {
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/executables/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/executables/chromedriver");
 		driver=new ChromeDriver();
 		driver.get("http://shopping.rediff.com/");
 		driver.manage().window().maximize();

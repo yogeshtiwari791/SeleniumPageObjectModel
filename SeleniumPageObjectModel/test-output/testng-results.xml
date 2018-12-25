@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21845" started-at="2018-12-23T15:54:14Z" finished-at="2018-12-23T15:54:36Z">
+  <suite name="Suite" duration-ms="56788" started-at="2018-12-25T11:34:59Z" finished-at="2018-12-25T11:35:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21845" started-at="2018-12-23T15:54:14Z" finished-at="2018-12-23T15:54:36Z">
+    <test name="Test" duration-ms="56788" started-at="2018-12-25T11:34:59Z" finished-at="2018-12-25T11:35:55Z">
+      <class name="testcases.FeaturedTest">
+        <test-method status="PASS" signature="printFeaturedList()[pri:0, instance:testcases.FeaturedTest@4c70fda8]" name="printFeaturedList" duration-ms="24735" started-at="2018-12-25T11:34:59Z" finished-at="2018-12-25T11:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printFeaturedList -->
+      </class> <!-- testcases.FeaturedTest -->
       <class name="testcases.TestCase1">
-        <test-method status="PASS" signature="signInTest()[pri:0, instance:testcases.TestCase1@26be92ad]" name="signInTest" duration-ms="21797" started-at="2018-12-23T15:54:15Z" finished-at="2018-12-23T15:54:36Z">
+        <test-method status="PASS" signature="signInTest()[pri:0, instance:testcases.TestCase1@224edc67]" name="signInTest" duration-ms="32017" started-at="2018-12-25T11:35:23Z" finished-at="2018-12-25T11:35:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInTest -->
       </class> <!-- testcases.TestCase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testcases.TopNavNavigateTest"/>
+      <class name="testcases.FeaturedTest"/>
       <class name="testcases.TestCase1"/>
     </classes>
   </test> <!-- Test -->
